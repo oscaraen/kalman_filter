@@ -38,7 +38,7 @@ for i in range(len(samples)):
     P[i] = Pposterior
 
 print(len(X))
-plt.scatter(range(n_samples),samples)
+plt.scatter(range(n_samples), samples)
 plt.plot(X, color="green") # filtro de kalman en azul
 plt.plot(np.ones(n_samples)*Sm, color="red") # ground truth
 
